@@ -1,0 +1,41 @@
+#body-bg {
+  background-color: rgba(128, 128, 128, 0.472);
+}
+
+.bg-img {
+  background-image: url(img/simple-house-01.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.nav {
+  transform: translate(0, -120px);
+  position: absolute;
+  width: 86%;
+}
+.nav-item a {
+  color: #fff;
+}
+.nav-item a:hover,
+.nav-item .activs {
+  transition: ease-in-out 0.4s;
+  border-bottom: 1px solid #fff;
+  color: #fff !important;
+  padding-bottom: 20px;
+}
+
+.btns {
+  border: 1px solid #298f66;
+  padding: 10px 25px;
+  color: #2f956d;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+.btns:hover,
+.btns.active {
+  background-color: #298f66;
+  color: #fff;
+}
