@@ -7,9 +7,10 @@
   width: 100%;
   height: 500px;
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-position: center bottom;
   position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .nav {
   transform: translate(0, -120px);
@@ -38,4 +39,13 @@
 .btns.active {
   background-color: #298f66;
   color: #fff;
+}
+
+.bg-watch {
+  background-image: url(img/about-05.jpg);
+  width: 1099px;
+  height: 220px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
