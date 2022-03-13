@@ -49,3 +49,9 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.icons {
+  font-size: 65px;
+  color: gray;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
