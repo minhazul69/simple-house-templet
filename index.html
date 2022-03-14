@@ -74,12 +74,12 @@
           <div
             class="d-flex align-content-center justify-content-center mt-5 mb-5"
           >
-            <button class="btns active">Pizza</button>
-            <button class="btns ms-3">Salad</button>
-            <button class="btns ms-3">Noodle</button>
+            <button id="pizza-active" onclick="pizzaItems()" >Pizza</button>
+            <button id="salad-active" onclick="saladItems()" class="btns ms-3">Salad</button>
+            <button id="noodle-active" onclick="noodleItems()" class="btns ms-3">Noodle</button>
           </div>
-          <!-- DISPLAY ITEMS SHOW -->
-          <div class="container">
+          <!-- DISPLAY PIZZA ITEMS SHOW -->
+          <div class="container" id="pizza-items">
             <div class="ms-4 me-4 row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card border-0 bg-light shadow h-100">
@@ -219,6 +219,215 @@
               </div>
             </div>
           </div>
+          <!-- DISPLAY PIZZA ITEMS END -->
+          <!-- DISPLAY SALAD ITEMS SHOW -->
+          <div class="container" id="salad-items">
+            <div class="ms-4 me-4 row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/04.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Salad Menu One</h5>
+                    <p class="card-text">
+                      Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$25</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/03.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Second Title Salad</h5>
+                    <p class="card-text">
+                      Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$30</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/05.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Third Salad Item</h5>
+                    <p class="card-text">
+                      Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$45</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/01.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Superior Salad</h5>
+                    <p class="card-text">
+                      Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/08.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Sed ultricies dui</h5>
+                    <p class="card-text">
+                      Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$55 / $60</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/07.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Maecenas eget justo</h5>
+                    <p class="card-text">
+                      Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$75</p>
+                  </div>
+                </div>
+              </div>   
+            </div>
+          </div>
+          <!-- DISPLAY SALAD ITEMS END -->
+          <!-- DISPLAY NOODLE ITEMS SHOW -->
+          <div class="container" id="noodle-items">
+            <div class="ms-4 me-4 row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/01.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Noodle One</h5>
+                    <p class="card-text">
+                      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$12.50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/02.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Noodle Second</h5>
+                    <p class="card-text">
+                      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$15.50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/03.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Third Soft Noodle
+                    </h5>
+                    <p class="card-text">
+                      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$20.50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/04.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Aliquam sagittis</h5>
+                    <p class="card-text">
+                      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$30.25</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/05.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Maecenas eget justo</h5>
+                    <p class="card-text">
+                      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$35.50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-light shadow h-100">
+                  <img
+                    src="img/gallery/06.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Quisque et felis eros</h5>
+                    <p class="card-text">
+                      Nam in suscipit nisi, sit amet consectetur metus. Ut sit
+                      amet tellus accumsan.
+                    </p>
+                    <p class="text-success mb-0 mt-4 lead">$40.50</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- DISPLAY NOODLE ITEMS END --> 
+
+
         </div>
       </section>
       <!-- END FOOD SECTION  -->
@@ -253,5 +462,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- JS FILE ADDED -->
+    <script src="app.js"></script>
   </body>
 </html>

@@ -66,3 +66,9 @@ footer h6 {
   font-size: 14px;
   font-weight: normal;
 }
+#salad-items {
+  display: none;
+}
+#noodle-items {
+  display: none;
+}
