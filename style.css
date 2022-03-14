@@ -58,3 +58,11 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.accordion-header:hover {
+  color: blue;
+  transition: all 0.5s;
+}
+footer h6 {
+  font-size: 14px;
+  font-weight: normal;
+}
