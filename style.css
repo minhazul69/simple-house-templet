@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,400;1,500;1,600&display=swap");
+
 #body-bg {
   background-color: rgba(128, 128, 128, 0.472);
+  font-family: "Fira Sans", sans-serif;
 }
 
 .bg-img {
@@ -13,7 +16,7 @@
   background-attachment: fixed;
 }
 .nav {
-  transform: translate(0, -120px);
+  transform: translate(0, -130px);
   position: absolute;
   width: 86%;
 }
@@ -25,7 +28,7 @@
   transition: ease-in-out 0.4s;
   border-bottom: 1px solid #fff;
   color: #fff !important;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .btns {
